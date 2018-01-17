@@ -62,7 +62,7 @@ var inPlace = !rawName || rawName === '.'
 var name = inPlace ? path.relative('../', process.cwd()) : rawName
 var to = path.resolve(rawName || '.')
 var clone = program.clone || false
-console.log(program)
+
 if (exists(to)) {
   inquirer.prompt({
     type: 'confirm',
@@ -86,6 +86,7 @@ function run(template){
   var spinner = ora('downloading template')
   spinner.start()
   console.log("template = " + template)
+  console.log(clone)
   download(template, tmp, { clone: clone }, function (err) {
     spinner.stop()
     process.on('exit', function () {

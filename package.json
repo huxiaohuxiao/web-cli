@@ -1,6 +1,6 @@
 {
   "name": "xiao-web-cli",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "A simple CLI for create webapp projects.",
   "preferGlobal": true,
   "bin": {
