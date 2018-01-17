@@ -1,5 +1,5 @@
 {
-  "name": "web-app-cli",
+  "name": "xiao-web-cli",
   "version": "1.0.10",
   "description": "A simple CLI for create webapp projects.",
   "preferGlobal": true,
@@ -10,18 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhouzhihu/webapp-cli.git"
+    "url": "git+https://github.com/huxiaohuxiao/web-cli.git"
   },
   "keywords": [
-    "webapp",
-    "cli"
+    "web-cli"
   ],
-  "author": "zhouzhihu",
+  "author": "xiao.hu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zhouzhihu/webapp-cli/issues"
+    "url": "https://github.com/huxiaohuxiao/web-cli/issues"
   },
-  "homepage": "https://github.com/zhouzhihu/webapp-cli#readme",
+  "homepage": "https://github.com/huxiaohuxiao/web-cli#readme",
   "engines": {
     "node": ">=4.0.0"
   },
