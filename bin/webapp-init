@@ -81,7 +81,7 @@ if (exists(to)) {
 
 function run(template){
   console.log("template = " + template)
-  var template = "zhouzhihu/" + template
+  var template = "huxiaohuxiao/" + template
   var tmp = os.tmpdir() + '/webapp-template-' + uid()
   var spinner = ora('downloading template')
   spinner.start()
